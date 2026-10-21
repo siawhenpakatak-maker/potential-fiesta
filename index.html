@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08284b">
+<title>Untuk Dede 💌</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;min-height:100svh;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#fff;background:#09264b;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:-2;background:linear-gradient(180deg,#08274bd9,#08274b55 45%,#071d26a8),url('foto-kenangan.jpg') center/cover;filter:saturate(.9)}
+.bg:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 78% 16%,#fff1b066,transparent 16%),linear-gradient(180deg,#09264b66,transparent 40%,#09221899)}
+.bubbles{position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 14% 22%,transparent 0 27px,#ffffff28 28px 32px,transparent 33px),radial-gradient(circle at 76% 45%,transparent 0 22px,#ffffff20 23px 27px,transparent 28px),radial-gradient(circle at 23% 80%,transparent 0 31px,#ffffff22 32px 36px,transparent 37px)}
+.heart{position:fixed;bottom:-30px;color:#ff285a;animation:up 10s linear infinite;font-size:24px;text-shadow:0 0 12px #ff174d88;pointer-events:none}.h1{left:10%;animation-delay:1s}.h2{left:82%;animation-delay:4s;font-size:30px}.h3{left:58%;animation-delay:7s;font-size:18px}.h4{left:33%;animation-delay:3s}
+.wrap{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:22px 16px;gap:18px}
+.browser{width:min(100%,440px);display:flex;align-items:center;gap:10px;background:#08264bd9;padding:10px 13px;border-radius:14px;font-size:13px;color:#e8f3ff;box-shadow:0 8px 24px #0002}
+.searchicon{font-size:18px}.address{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.panel{width:min(100%,440px);min-height:340px;padding:28px 23px 26px;border:2px solid #ffffffa8;border-radius:27px 17px 30px 17px;background:#092b50a8;backdrop-filter:blur(8px);box-shadow:0 15px 45px #0004,inset 0 0 0 1px #ffc5d233;position:relative;animation:pop .7s ease both}
+.panel:before,.panel:after{content:"◆";position:absolute;color:#fff;text-shadow:0 0 12px white;font-size:13px}.panel:before{top:14px;left:16px}.panel:after{bottom:14px;right:16px}
+.envelope{position:absolute;right:19px;top:15px;font-size:23px}
+.avatar{width:112px;height:112px;margin:0 auto 22px;border:5px solid white;border-radius:50%;overflow:hidden;background:#f7d8df;box-shadow:0 0 0 4px #ffffff2c}.avatar img{width:100%;height:100%;object-fit:cover}
+h1{font-size:clamp(23px,6vw,30px);line-height:1.25;margin:0 0 17px;text-shadow:0 2px 6px #0005}
+.copy{font-size:clamp(17px,4.5vw,21px);line-height:1.48;min-height:90px;text-shadow:0 2px 5px #0006;white-space:pre-line}
+.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:20px}
+button,.wa{font:700 16px system-ui;border:2px solid #fff;border-radius:999px;background:#e85277;color:white;padding:10px 23px;box-shadow:0 5px 14px #0003;cursor:pointer;text-decoration:none}
+button:active,.wa:active{transform:scale(.97)}button.secondary{background:#ffffff24}
+.pin-dots{display:flex;justify-content:center;gap:12px;margin:14px 0 18px}.dot{width:16px;height:16px;border-radius:50%;border:2px solid white;background:transparent}.dot.filled{background:#ed315c;box-shadow:0 0 10px #ff6685}
+.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;max-width:290px;margin:0 auto}.key{padding:9px 0;border-radius:13px;background:linear-gradient(#ff7190,#d92d58);font-size:19px}.pin-note{text-align:center;font-size:13px;opacity:.9;margin:0 0 10px}.error{color:#ffd0da;min-height:20px;text-align:center;font-size:13px;margin-top:8px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:18px}.gallery img{width:100%;height:150px;object-fit:cover;border-radius:13px;border:2px solid #ffffffa8}
+.small{font-size:12px;text-align:center;opacity:.78;margin:12px 0 0}
+.hidden{display:none!important}
+@keyframes up{from{transform:translateY(0);opacity:0}15%{opacity:.8}to{transform:translateY(-115vh) rotate(30deg);opacity:0}}@keyframes pop{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:360px){.panel{padding:26px 17px}.avatar{width:98px;height:98px}.gallery img{height:125px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="bg"></div><div class="bubbles"></div>
+<div class="heart h1">♥</div><div class="heart h2">♥</div><div class="heart h3">♥</div><div class="heart h4">♥</div>
+<div class="wrap">
+  <div class="browser"><span class="searchicon">⌕</span><span class="address">surat-kecil-untuk-dede 💗</span><span>↻</span></div>
+  <section class="panel" id="pinPanel">
+    <span class="envelope">💌</span>
+    <div class="avatar"><img src="foto-kalian.jpg" alt="Jacklin dan Dede"></div>
+    <h1 style="text-align:center">Tebak PIN-nya, Dede 🥰</h1>
+    <p class="pin-note">Masukkan 4 angka yang tepat!</p>
+    <div class="pin-dots" id="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+    <div class="keypad">
+      <button class="key" data-digit="1">1</button><button class="key" data-digit="2">2</button><button class="key" data-digit="3">3</button>
+      <button class="key" data-digit="4">4</button><button class="key" data-digit="5">5</button><button class="key" data-digit="6">6</button>
+      <button class="key" data-digit="7">7</button><button class="key" data-digit="8">8</button><button class="key" data-digit="9">9</button>
+      <button class="key" data-digit="0" style="grid-column:2">0</button><button class="key" id="backspace" aria-label="Hapus">⌫</button>
+    </div>
+    <div class="error" id="pinError">Clue: tanggal atau angka spesial kita 💗</div>
+  </section>
+
+  <section class="panel hidden" id="letterPanel">
+    <span class="envelope">💌</span>
+    <div class="avatar"><img src="foto-kalian.jpg" alt="Jacklin dan Dede"></div>
+    <h1 id="letterTitle">Kamu tahu nggak, Dede? 🥺</h1>
+    <div class="copy" id="letterCopy"></div>
+    <div class="actions"><button id="nextBtn">Lanjut 💗</button></div>
+  </section>
+
+  <section class="panel hidden" id="finalPanel">
+    <div class="avatar"><img src="foto-kalian.jpg" alt="Jacklin dan Dede"></div>
+    <h1 style="text-align:center">I Love You, Dede ❤️</h1>
+    <div class="copy" style="text-align:center;min-height:auto">Dari Jacklin, untuk Dede 🫶</div>
+    <div class="gallery"><img src="foto-kalian.jpg" alt="Foto kenangan 1"><img src="foto-kenangan.jpg" alt="Foto kenangan 2"></div>
+    <div class="actions"><a class="wa" id="replyButton" href="#" target="_blank" rel="noopener">💌 Balas Jacklin</a></div>
+    <p class="small">Semoga halaman kecil ini bikin kamu senyum hari ini ✨</p>
+  </section>
+</div>
+<script>
+const correctPin = "0123"; // Ganti angka ini kalau mau PIN lain.
+let pin = "";
+const pinPanel=document.getElementById("pinPanel"),letterPanel=document.getElementById("letterPanel"),finalPanel=document.getElementById("finalPanel");
+const dots=[...document.querySelectorAll(".dot")],pinError=document.getElementById("pinError");
+function drawDots(){dots.forEach((d,i)=>d.classList.toggle("filled",i<pin.length))}
+function enterDigit(d){if(pin.length>=4)return;pin+=d;drawDots();if(pin.length===4){if(pin===correctPin){pinError.textContent="PIN benar! 💗";setTimeout(()=>{pinPanel.classList.add("hidden");letterPanel.classList.remove("hidden");showStep()},350)}else{pinError.textContent="PIN-nya salah 🙈 Coba lagi ya!";setTimeout(()=>{pin="";drawDots();pinError.textContent="Clue: tanggal atau angka spesial kita 💗"},900)}}}
+document.querySelectorAll("[data-digit]").forEach(b=>b.addEventListener("click",()=>enterDigit(b.dataset.digit)));
+document.getElementById("backspace").addEventListener("click",()=>{pin=pin.slice(0,-1);drawDots();pinError.textContent="Masukkan 4 angka yang tepat!"});
+const steps=[
+ ["Kamu tahu nggak? 🥺","Ada satu orang yang bisa bikin hariku terasa lebih baik..."],
+ ["Cie... nungguin nih?! 😝","Aku senang banget bisa kenal kamu, Dede. Makasih sudah hadir di hidupku. 💗"],
+ ["Ada satu hal lagi... 🙈","Semoga kita selalu bisa saling bikin senyum, saling dukung, dan bikin banyak kenangan indah. 🫶"]
+];
+let step=0;const title=document.getElementById("letterTitle"),copy=document.getElementById("letterCopy"),next=document.getElementById("nextBtn");
+function typeText(text){copy.textContent="";let i=0;const timer=setInterval(()=>{copy.textContent+=text.charAt(i++);if(i>=text.length)clearInterval(timer)},38)}
+function showStep(){title.textContent=steps[step][0];typeText(steps[step][1]);next.textContent=step===steps.length-1?"Buka pesan terakhir 💌":"Lanjut 💗"}
+next.addEventListener("click",()=>{if(step<steps.length-1){step++;showStep()}else{letterPanel.classList.add("hidden");finalPanel.classList.remove("hidden")}});
+const whatsappNumber="6282276179195";
+const prefilledMessage="Aku punya sesuatu yang spesial buat kamu ❤️ Buka yaa!";
+document.getElementById("replyButton").href="https://wa.me/"+whatsappNumber+"?text="+encodeURIComponent(prefilledMessage);
+</script>
+</body></html>
